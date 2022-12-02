@@ -152,12 +152,16 @@
     .hero_banner{
         grid-row: 2 / 3;
         grid-column: 1 / 2;
+        width: 100%;
+        height: auto;
 
-        img{
-            width: 400px;
-        }
+        
         h1{
             font-size: 45px;;
+        }
+        img{
+            width: 100%;
+            object-fit: cover;
         }
 
         @media (max-width:700px){

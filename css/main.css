@@ -107,11 +107,14 @@
 
 .hero_banner {
   grid-row: 2 / 3;
-  grid-column: 1 / 2; }
-  .hero_banner img {
-    width: 400px; }
+  grid-column: 1 / 2;
+  width: 100%;
+  height: auto; }
   .hero_banner h1 {
     font-size: 45px; }
+  .hero_banner img {
+    width: 100%;
+    object-fit: cover; }
   @media (max-width: 700px) {
     .hero_banner {
       grid-row: 2 / 3;
