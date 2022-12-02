@@ -1,0 +1,11 @@
+{
+  "name": "fm-challenge-1",
+  "version": "1.0.0",
+  "description": "a simple landing page challenge from frontendmentor",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass -o css scss -w"
+  },
+  "author": "",
+  "license": "ISC"
+}
