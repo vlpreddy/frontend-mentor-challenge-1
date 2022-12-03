@@ -1,0 +1,16 @@
+.button {
+    width: 180px;
+    height: 50px;
+    background-color: color(soft-red);
+    color:color(Off-white) !important;
+    text-transform: uppercase;
+    border: color(dark-grayish-blue);
+    letter-spacing: 3px;
+    font-weight: bold;
+
+    &:hover{
+        background-color:color(very-dark-blue);
+        cursor: pointer;
+
+    }
+}

@@ -1,0 +1,25 @@
+$colors:(
+    soft-orange:hsl(35, 77%, 62%),
+    soft-red:hsl(5, 85%, 63%), 
+    Off-white: hsl(36, 100%, 99%),
+    grayish-blue: hsl(233, 8%, 79%),
+    dark-grayish-blue:hsl(236, 13%, 42%),
+    very-dark-blue:hsl(240, 100%, 5%)
+);
+    
+    $font-sizes:(
+    hd1: 55px,
+    hd2: 30px,
+    hd3: 20px,
+    hd4: 20px,
+    para:15px,
+    anb: 25px
+    );
+        
+    @function color($color-name){
+        @return map-get($colors, $color-name);
+    }
+    
+    @function size($size){
+        @return map-get($font-sizes, $size);
+    }
