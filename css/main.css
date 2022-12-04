@@ -1,13 +1,17 @@
-.button {
+a.button {
   width: 180px;
   height: 50px;
+  display: block;
   background-color: #f15e50;
   color: #fffdfa !important;
   text-transform: uppercase;
   border: #5d5f79;
   letter-spacing: 3px;
-  font-weight: bold; }
-  .button:hover {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15px;
+  box-sizing: border-box; }
+  a.button:hover {
     background-color: #00001a;
     cursor: pointer; }
 
@@ -35,6 +39,11 @@ p {
     .wrapper {
       grid-template-rows: auto auto auto auto;
       grid-template-columns: 1fr; } }
+
+main {
+  width: inherit;
+  height: 3px;
+  height: inherit; }
 
 .header {
   grid-column: 1 / -1;
@@ -67,7 +76,8 @@ p {
         .header .burger-line {
           width: 100%;
           height: 4px;
-          background-color: #000000;
+          display: block;
+          background-color: #00001a;
           transform-origin: right;
           transition: all .5s .5s; }
       .header .checkbox:checked ~ nav {
@@ -180,14 +190,14 @@ p {
       border-bottom: #5d5f79 solid 1px; }
       .sidebar .content_sidebar_latest .content_sidebar_latest-news:nth-child(3) {
         border-bottom: none !important; }
-      .sidebar .content_sidebar_latest .content_sidebar_latest-news h4 {
+      .sidebar .content_sidebar_latest .content_sidebar_latest-news h3 {
         font-size: 20px;
         margin-bottom: 10px;
         line-height: 35px; }
-        .sidebar .content_sidebar_latest .content_sidebar_latest-news h4 a {
+        .sidebar .content_sidebar_latest .content_sidebar_latest-news h3 a {
           color: #c5c6ce;
           text-decoration: none; }
-          .sidebar .content_sidebar_latest .content_sidebar_latest-news h4 a:hover {
+          .sidebar .content_sidebar_latest .content_sidebar_latest-news h3 a:hover {
             color: #e9ab53; }
       .sidebar .content_sidebar_latest .content_sidebar_latest-news p {
         color: #5d5f79; }
@@ -221,15 +231,15 @@ p {
       width: 70%;
       padding: 10px 30px;
       box-sizing: border-box; }
-      .articles-item .articles-item-right h3 {
+      .articles-item .articles-item-right h4 {
         font-size: 20px;
         line-height: 32px;
         margin-bottom: 10px;
         font-weight: bold; }
-        .articles-item .articles-item-right h3 a {
+        .articles-item .articles-item-right h4 a {
           text-decoration: none;
           color: #00001a; }
-          .articles-item .articles-item-right h3 a:hover {
+          .articles-item .articles-item-right h4 a:hover {
             color: #f15e50; }
       .articles-item .articles-item-right div {
         margin-bottom: 10px;

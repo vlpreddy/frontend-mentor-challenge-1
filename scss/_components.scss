@@ -1,12 +1,16 @@
-.button {
+ a.button{
     width: 180px;
     height: 50px;
+    display: block;
     background-color: color(soft-red);
     color:color(Off-white) !important;
     text-transform: uppercase;
     border: color(dark-grayish-blue);
     letter-spacing: 3px;
     font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
 
     &:hover{
         background-color:color(very-dark-blue);
