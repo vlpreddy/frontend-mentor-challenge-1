@@ -115,7 +115,7 @@ I wan to improve writing mixins for clean clode especially when I am using media
 ## Author
 
 - Website - [Leela Parameswara Reddy](https://www.vlpreddy.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@vlpreddy](https://www.frontendmentor.io/profile/vlpreddy)
 - Twitter - [@vlpreddy](https://www.twitter.com/vlpreddy)
 
 
